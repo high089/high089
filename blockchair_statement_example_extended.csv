@@ -1,0 +1,25 @@
+"Wallet statement"
+"Address count with BTC balance:";9
+"Starting balance 2016-01-01";0,0046975;BTC;1,97;USD
+"Ending balance 2016-12-31";0,00622801;BTC;5,97;USD
+"Total received";0,00237925;BTC
+"Total sent";0,00084874;BTC
+"Total received from external wallets";0,00169285;BTC
+"Total sent to external wallets";0,00016234;BTC
+
+"Types legend"
+"External receiving";"An event that replenishes an address from your list, where the sending address is not an address from your list."
+"External spending";"An event that reflects a spend from an address on your list to an external address that is not an address on your list."
+"Inner fee";"Commission that was spent by the address from your list."
+Inner;"Event where the recipient address and the sender address are addresses from your list"
+
+
+"Start period";2016-01-01
+"End period";2016-12-31
+"Transactions involving the addresses:"
+"Tx number";Effect;Ticker;"Amount fiat (USD)";"Asset rate (USD)";Type;Date;"Public key";"Wallet address";"Third-party address";"Transaction hash"
+1;0,00169285;BTC;1,01;595,04;"External receiving";"2016-08-09 20:28:34";xpub6BfKpq...AC7YtodwUR;15qkqdGFvBBvd8MHnRM3hhXkfTtEeP4mGP;;0b86ab8d3acda4fb50d0cf411daa27f3acc7bedb6de51a1f61ec78046249d8f1
+2;-0,00084874;BTC;-0,36;419,64;Inner;"2016-04-10 06:20:51";xpub6BfKpq...AC7YtodwUR;12SisoiXLUEbkytL5Pzia1jBY8gJP5XN8D;;557c7bca7f74799829f71092aeb116f2cc833636425cfd90b3d0ec3b93580db9
+3;0,0001;BTC;0,04;419,64;"External spending";"2016-04-10 06:20:51";;;16ihhYuCBHrewvvqyUa4epZTjT34J6reNh;557c7bca7f74799829f71092aeb116f2cc833636425cfd90b3d0ec3b93580db9
+4;0,0006864;BTC;0,29;419,64;Inner;"2016-04-10 06:20:51";xpub6BfKpq...AC7YtodwUR;18EmV6cYjVmK3SQshZc92CdD9ByHDdf39v;;557c7bca7f74799829f71092aeb116f2cc833636425cfd90b3d0ec3b93580db9
+5;0,00006234;BTC;0,03;419,64;"Inner fee";"2016-04-10 06:20:51";;;the-void;557c7bca7f74799829f71092aeb116f2cc833636425cfd90b3d0ec3b93580db9
